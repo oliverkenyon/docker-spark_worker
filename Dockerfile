@@ -1,5 +1,6 @@
 FROM chooban/spark_base:latest
 
+RUN mkdir /tmp/spark-events/
 WORKDIR /usr/local/spark
 
 COPY run-worker.sh /run-worker.sh
