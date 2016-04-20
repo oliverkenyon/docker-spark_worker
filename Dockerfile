@@ -1,4 +1,4 @@
-FROM chooban/spark_base:latest
+FROM oliverkenyon/spark_base:latest
 
 RUN mkdir /tmp/spark-events/
 WORKDIR /usr/local/spark
